@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/file/d/19FYPrWxvPO4xgnwZzX26ch_lv6abCX99/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['sedum', 'aloe', 'echeveria', 'cactus']
 path = Path(__file__).parent
 
 app = Starlette()
