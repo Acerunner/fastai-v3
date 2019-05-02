@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=19FYPrWxvPO4xgnwZzX26ch_lv6abCX99'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=19OKSPngRKOjaz1GY7ZtK6i9WXZjuRSpl'
+export_file_name = 'pinniped_model.pkl'
 
-classes = ['sedum', 'aloe', 'echeveria', 'cactus']
+classes = ['otter', 'sea_lion', 'seal', 'elephant_seal']
 path = Path(__file__).parent
 
 app = Starlette()
